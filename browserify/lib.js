@@ -1,0 +1,1 @@
+module.exports = function () { return 'This is lib function result' }
