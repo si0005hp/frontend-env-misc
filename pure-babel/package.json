@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "babel src -d output",
-    "execute": "yarn build && node output/index.js"
+    "execute": "yarn build && node output/index.js",
+    "bundle": "babel src --out-file output/bundle.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
